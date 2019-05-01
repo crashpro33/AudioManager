@@ -5,11 +5,8 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
-    //public AudioMixer audioMixer;
-
     public void SetVolume(float volume)
     {
         AudioListener.volume = volume;
-        //audioMixer.SetFloat("Volume", volume);
     }
 }
